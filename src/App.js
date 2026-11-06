@@ -1,18 +1,19 @@
 
+import React from "react";
+import Header from "./Header";
 import MenuList from "./MenuList";
 import OrderNote from "./OrderNote";
+import DeliveryInfo from "./DeliveryInfo";
 
 function App() {
-    return (
-        <div>
-            <h1>Shree Tiffin House</h1>
-            <p>Fresh Homemade Meals, Delivered with Love!</p>
-
-            <MenuList />
-
-            <OrderNote />
-        </div>
-    );
+  return (
+    <div>
+      <Header />
+      <MenuList />
+      <OrderNote />
+      <DeliveryInfo />
+    </div>
+  );
 }
 
 export default App;
